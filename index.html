@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pr-BR">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,10 +9,35 @@
   </head>
   <body>
     <nav>
-      <li><a href="#">SOBRE</a></li>
-      <li><a href="#">SERVIÇOS</a></li>
-      <li><a href="#">PROJETOS</a></li>
-      <li><a href="#">CONTATOS</a></li>
+      <ul class="dropdown-menu">
+        <li><a href="#">SOBRE</a></li>
+        <li>
+          <a href="#">SERVIÇOS &#9660; </a>
+          <ul class="dropdown-submenu">
+            <li><a href="#">DESENVOLVIMENTO DE SOFTWARE</a></li>
+            <li><a href="#">PROJETO DE BANCOS DE DADOS</a></li>
+            <li><a href="#">PROJETO DE REDES</a></li>
+            <li><a href="#">MANUTENÇÃO DE MAQUINAS</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">PROJETOS &#9660; </a>
+          <ul class="dropdown-submenu">
+            <li><a href="#">CRUD</a></li>
+            <li><a href="#">ENCURTADOR DE LINKS</a></li>
+            <li><a href="#">CALCULADORA IMC</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">CONTATOS &#9660; </a>
+          <ul class="dropdown-submenu">
+            <li><a href="#">TELEFONE</a></li>
+            <li><a href="#">E-MAIL</a></li>
+            <li><a href="#">LINKEDIN</a></li>
+            <li><a href="#">INSTAGRAM</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
   </body>
 </html>
